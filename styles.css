@@ -1,0 +1,204 @@
+body{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	height: 100%;
+	background-color: #171717;
+	color: #c2c2c2;
+}
+
+a:link{
+	color: #ad291f;
+}
+
+textarea{
+	max-width: 250px;
+	max-height: 150px;
+	border-radius: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	width: 250px;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+input{
+	width: 100px;
+}
+
+ button{
+	width: 100px;
+	transition-duration: 0.4s;
+	border: 2px solid #ad291f;
+	background-color: #171717;
+	border-radius: 5px;
+	color: #ad291f;
+}
+
+ aside{
+	 display: block;
+	 position: fixed;
+	 border: solid;
+	 border-radius: 15px;
+	 width: 15%;
+	 height: 98%;
+	 margin-left: 1%;
+	 padding-left: 2%;
+	 padding-right: 2%;
+	 text-align: center;
+ }
+
+aside button{
+	margin-top: 5%;
+	width: 150px;
+	height: 25px;
+}
+
+select{
+	width: 150px;
+	height: 25px;
+	border: solid;
+	border-radius: 10px;
+}
+
+section{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: static;
+	  border: solid;
+		border-color: #ad291f;
+		border-radius: 15px;
+ 	 	width: 90%;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		justify-content: space-around;
+ }
+
+main{
+	  border: solid;
+		border-radius: 10px;
+ 	 	width: 75%;
+		display: block;
+		float: right;
+		position:fixed;
+		right: 1px;
+		flex-direction: column;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 98%;
+		overflow-y: scroll;
+		scroll-behavior: smooth;
+ }
+
+hr{
+	margin-top: 50%;
+}
+
+ .ajoutVideos{
+ 	padding-top: 5%
+ }
+
+ .auth{
+ 	margin: 5%;
+ 	padding: 5%;
+ 	vertical-align: center;
+ 	text-align: center;
+ 	border: solid;
+ 	border-radius: 15px;
+ 	height: auto;
+ }
+
+.modif{
+	margin: 5%;
+ 	padding: 5%;
+ 	vertical-align: center;
+ 	text-align: center;
+ 	border: solid;
+ 	border-radius: 15px;
+ 	height: auto;
+}
+
+.modif button{
+	margin-top: 2%;
+}
+
+ .upload{
+ 	margin: 5%;
+ 	padding: 5%;
+ 	vertical-align: center;
+ 	text-align: center;
+ 	border: solid;
+ 	border-radius: 15px;
+ 	height: auto;
+ }
+
+ .delete{
+ 	margin: 5%;
+ 	padding: 5%;
+ 	vertical-align: center;
+ 	text-align: center;
+ 	border: solid;
+ 	border-radius: 15px;
+ 	height: auto;
+ }
+
+ .inputfile + label{
+ 	display: inline-block;
+ 	color: #ad291f;
+ 	border: solid;
+ 	border: 2px solid #ad291f;
+ 	border-radius: 5px;
+ 	padding: 2%;
+ }
+
+ .inputfile:focus + label,
+ .inputfile + label:hover{
+ 	background-color: white;
+ }
+
+ .infos{
+ 	display: flex;
+ 	flex-direction: column;
+ 	vertical-align: middle;
+ }
+
+ .formulaires{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .formulaires input{
+ 	margin: 2%;
+ }
+
+ .formulaires button{
+ 	margin: 2%;
+ }
+
+ .multicast{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .listevideos p{
+ 	margin: 0;
+ }
+
+ .inputfile{
+ 	width: 0.1px;
+ 	height: 0.1px;
+ 	opacity: 0;
+ 	overflow: hidden;
+ 	position: absolute;
+ 	z-index: -1;
+ }
+
+ .killvlc{
+	 margin-top: 25%;
+ }
